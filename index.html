@@ -1,0 +1,1663 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="icon" href="./favicon/favicon-logo.png">
+    <link rel="stylesheet" href="querries.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Gmail Clone Assignment</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="container container--nav">
+        <div class="all-nav-flex">
+          <div class="nav-mini-flex">
+            <div class="nav-logo-wrap">
+              <form class="nav-form nav-form--2">
+                <div class="nav-input-wrap">
+                  <ion-icon
+                    name="menu-outline"
+                    class="nav-media-menu"
+                  ></ion-icon>
+                  <ion-icon name="search-sharp" class="nav-icon"></ion-icon>
+                  <input
+                    type="text"
+                    placeholder="Search mail"
+                    required
+                    class="nav-input"
+                  />
+                </div>
+
+                <div>
+                  <a href="#" class="nav-icon-ancra"
+                    ><ion-icon
+                      name="options-outline"
+                      class="nav-icon"
+                    ></ion-icon>
+                    <img
+                      src="./gmail-email-head/email-head-img.jpeg"
+                      alt="head logo"
+                      class="nav-form-img"
+                  /></a>
+                </div>
+              </form>
+
+              <div>
+                <p class="nav-menu-primary">Primary</p>
+              </div>
+
+              <div class="media-search-wrap">
+                <a href="#" class="nav-icon-ancra"
+                  ><ion-icon
+                    name="menu-outline"
+                    class="nav-icon nav-icon-first"
+                  ></ion-icon
+                ></a>
+
+                <p class="media-text">Inbox</p>
+              </div>
+
+              <img
+                src="./gmail-logo/gmail-logo-1.png"
+                alt="Logo Gmail"
+                class="logo-img"
+              />
+            </div>
+            <div>
+              <form class="nav-form">
+                <div class="nav-input-wrap">
+                  <ion-icon
+                    name="menu-outline"
+                    class="nav-media-menu"
+                  ></ion-icon>
+                  <ion-icon
+                    name="search-sharp"
+                    class="nav-icon nav-icon-search"
+                  ></ion-icon>
+                  <input
+                    type="text"
+                    placeholder="Search mail"
+                    required
+                    class="nav-input"
+                  />
+                </div>
+
+                <div>
+                  <a href="#" class="nav-icon-ancra"
+                    ><ion-icon
+                      name="options-outline"
+                      class="nav-icon"
+                    ></ion-icon>
+                    <img
+                      src="./gmail-email-head/email-head-img.jpeg"
+                      alt="head logo"
+                      class="nav-form-img"
+                  /></a>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="all-nav-flex-2">
+            <a href="#" class="nav-icon-ancra"
+              ><ion-icon
+                name="help-circle-outline"
+                class="nav-icon nav-icon-end"
+              ></ion-icon
+            ></a>
+            <a href="#" class="nav-icon-ancra"
+              ><ion-icon
+                name="settings-outline"
+                class="nav-icon nav-icon-end"
+              ></ion-icon
+            ></a>
+            <a href="#" class="nav-icon-ancra"
+              ><ion-icon name="apps" class="nav-icon nav-icon-app"></ion-icon
+            ></a>
+            <img
+              src="./gmail-email-head/email-head-img.jpeg"
+              alt="Email Head"
+              class="email-head"
+            />
+            <a href="#">
+              <ion-icon name="search-sharp" class="media-search"></ion-icon>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main">
+      <div class="container container--main">
+        <div>
+          <div class="main-grid">
+            <aside class="aside">
+              <div>
+                <div>
+                  <button class="compose-wrap">
+                    <ion-icon
+                      name="pencil-outline"
+                      class="compose-icon"
+                    ></ion-icon>
+                    <p class="compose-text">Compose</p>
+                  </button>
+
+                  <div class="inbox-wrap inbox-wrap--4">
+                    <a href="#">
+                      <ion-icon
+                        name="person"
+                        class="media-aside-icon"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                  <div>
+                    <div class="inbox-wrap inbox-wrap--3">
+                      <span class="inbox-span">
+                        <ion-icon
+                          name="mail-unread"
+                          class="inbox-icon inbox-icon--3"
+                        ></ion-icon>
+                        <p class="inbox-text">Inbox</p>
+                      </span>
+                      <p class="inbox-text">1,970</p>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="inbox-wrap inbox-wrap--2">
+                      <span class="inbox-span">
+                        <ion-icon
+                          name="star-outline"
+                          class="inbox-icon inbox-icon--2"
+                        ></ion-icon>
+                        <p class="inbox-text">Stared</p>
+                      </span>
+                      <!-- <p class="inbox-text">1,970</p> -->
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="inbox-wrap inbox-wrap--2">
+                      <span class="inbox-span">
+                        <ion-icon
+                          name="time-outline"
+                          class="inbox-icon inbox-icon--2"
+                        ></ion-icon>
+                        <p class="inbox-text">Snoozed</p>
+                      </span>
+                      <!-- <p class="inbox-text">1,970</p> -->
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="inbox-wrap inbox-wrap--2">
+                      <span class="inbox-span">
+                        <ion-icon
+                          name="send-outline"
+                          class="inbox-icon"
+                        ></ion-icon>
+                        <p class="inbox-text">Sent</p>
+                      </span>
+                      <!-- <p class="inbox-text">1,970</p> -->
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="inbox-wrap inbox-wrap--2">
+                      <span class="inbox-span">
+                        <ion-icon
+                          name="document-text-outline"
+                          class="inbox-icon inbox-icon--2"
+                        ></ion-icon>
+                        <p class="inbox-text">Draft</p>
+                      </span>
+                      <p class="inbox-text">5</p>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="inbox-wrap inbox-wrap--2">
+                      <span class="inbox-span">
+                        <ion-icon
+                          name="chevron-down-outline"
+                          class="inbox-icon inbox-icon--2"
+                        ></ion-icon>
+                        <p class="inbox-text">More</p>
+                      </span>
+                      <!-- <p class="inbox-text">5</p> -->
+                    </div>
+                  </div>
+
+                  <div class="labels-wrap">
+                    <p class="labels-text">
+                      <span> Labels</span
+                      ><ion-icon
+                        name="add-outline"
+                        class="labels-icon"
+                      ></ion-icon>
+                    </p>
+                  </div>
+
+                  <div>
+                    <div class="inbox-wrap inbox-wrap--2">
+                      <span class="inbox-span">
+                        <ion-icon
+                          name="pricetag"
+                          class="inbox-icon inbox-icon--2"
+                        ></ion-icon>
+                        <p class="inbox-text">Unwanted</p>
+                      </span>
+                      <ion-icon
+                        name="ellipsis-vertical"
+                        class="labels-icon--2"
+                      ></ion-icon>
+                      <!-- <p class="inbox-text">5</p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </aside>
+
+            <div class="main-middle">
+              <div class="container container--middle">
+                <div class="all-middle-sticky">
+                  <div class="middle-sticky">
+                    <div class="middle-sticky--1">
+                      <ion-icon
+                        name="square-outline"
+                        class="middle-sticky-icon middle-sticky-icon--2"
+                      ></ion-icon>
+                      <ion-icon
+                        name="caret-down-sharp"
+                        class="middle-sticky-icon middle-sticky-icon--2 middle-sticky-icon--3"
+                      ></ion-icon>
+                    </div>
+                    <ion-icon
+                      name="reload-outline"
+                      class="middle-sticky-icon middle-sticky-icon---4"
+                    ></ion-icon>
+                    <ion-icon
+                      name="ellipsis-vertical"
+                      class="middle-sticky-icon middle-sticky-icon---4"
+                    ></ion-icon>
+                  </div>
+                  <div class="middle-sticky-end">
+                    <p class="middle-sticky-number">1-50 of 2,336</p>
+                    <div class="middle-sticky-icon-wrap">
+                      <ion-icon
+                        name="chevron-back-outline"
+                        class="middle-sticky-icons icon-back"
+                      ></ion-icon>
+                      <ion-icon
+                        name="chevron-forward-outline"
+                        class="middle-sticky-icons icon-forward"
+                      ></ion-icon>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="all-middle-scroll">
+                  <div class="all-primary-div">
+                    <div class="primary-mini-div">
+                      <div class="primary-wrap">
+                        <ion-icon
+                          name="image-sharp"
+                          class="primary-icon"
+                        ></ion-icon>
+                        <p class="primary-text">Primary</p>
+                      </div>
+
+                      <div class="promotion-div">
+                        <ion-icon
+                          name="pricetag-outline"
+                          class="primary-icon primary-icon--2"
+                        ></ion-icon>
+                        <div>
+                          <p class="promotion-text">
+                            Promotion <span class="promotion-span">47 new</span>
+                          </p>
+                          <p class="promotion-text-2">
+                            Binance, Jumia Ghana, Netlify T...
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="promotion-div">
+                        <ion-icon
+                          name="people-outline"
+                          class="primary-icon primary-icon--2"
+                        ></ion-icon>
+                        <div>
+                          <p class="promotion-text">
+                            Social <span class="promotion-span">45 new</span>
+                          </p>
+                          <p class="promotion-text-2">
+                            LinkedIn, Chibueze (via LinkedIn...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="div-linkedin">
+                          <p class="linkedin-logo">L</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            LinkedIn
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">LinkedIn</p>
+                        <p class="linkedin-text">
+                          "Frontend developer": 30+ opportunities
+                          <span class="linkedin-span">
+                            - Frontend Developer - HTML/Typescript...</span
+                          >
+                        </p>
+                        <p class="linkedin-last">
+                          Frontend Developer - HTML/Typescript...
+                        </p>
+                      </div>
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">23:53</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="linked-logo-div">
+                          <p class="linkedin-logo">E</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            Ebusinessgroup
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">
+                          Ebusinessgroup
+                        </p>
+                        <p class="linkedin-text">
+                          Zenith Mobile LOGIN ALERT ON 6/2/2023 AT 9:18:00
+                          PM<span class="linkedin-span">
+                            - Zenith Mobile Login Notifi...</span
+                          >
+                        </p>
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">21:18</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="div-linkedin">
+                          <p class="linkedin-logo">L</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            LinkedIn
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">LinkedIn</p>
+                        <p class="linkedin-text">
+                          LinkedIn News Africa Recently Posted<span
+                            class="linkedin-span"
+                          >
+                            - The next generation of professionals is...</span
+                          >
+                        </p>
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">19:35</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="linked-logo-div">
+                          <p class="linkedin-logo">E</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            Ebusinessgroup
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">
+                          Ebusinessgroup
+                        </p>
+                        <p class="linkedin-text">
+                          Zenith Mobile LOGIN ALERT ON 6/2/2023 AT 8:27:13
+                          AM<span class="linkedin-span">
+                            - Zenith Online Login Notific...</span
+                          >
+                        </p>
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">Jun 2</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="linked-logo-div">
+                          <p class="linkedin-logo">E</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            Ebusinessgroup
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">
+                          Ebusinessgroup
+                        </p>
+                        <p class="linkedin-text">
+                          Zenith Mobile LOGIN ALERT ON 6/2/2023 AT 8:12:31
+                          AM<span class="linkedin-span">
+                            - Zenith Online Login Notific...</span
+                          >
+                        </p>
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">Jun 2</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="linked-logo-div">
+                          <p class="linkedin-logo">E</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            Ebusinessgroup
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">
+                          Ebusinessgroup
+                        </p>
+                        <p class="linkedin-text">
+                          Zenith Transaction Alert [DEBIT: 5000.00 NGN]<span
+                            class="linkedin-span"
+                          >
+                            - Zenith Bank Transaction Notificatio...</span
+                          >
+                        </p>
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">Jun 2</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="linked-logo-div">
+                          <p class="linkedin-logo">E</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            Ebusinessgroup
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">
+                          Ebusinessgroup
+                        </p>
+                        <p class="linkedin-text">
+                          PAYMENT RECEIPT FROM (OJUKWU LEVI CHINEDU)<span
+                            class="linkedin-span"
+                          >
+                            - Transfer receipt 02/6/2023...</span
+                          >
+                        </p>
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">Jun 2</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="linked-logo-div">
+                          <p class="linkedin-logo">E</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            Ebusinessgroup
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">
+                          Ebusinessgroup
+                        </p>
+                        <p class="linkedin-text">
+                          Zenith Mobile LOGIN ALERT ON 6/2/2023 AT 8:03:56
+                          AM<span class="linkedin-span">
+                            - Zenith Mobile Login Notific...</span
+                          >
+                        </p>
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">Jun 2</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="div-linkedin">
+                          <p class="linkedin-logo">L</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            LinkedIn
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">LinkedIn</p>
+                        <p class="linkedin-text">
+                          "Frontend developer": 30+ opportunities<span
+                            class="linkedin-span"
+                          >
+                            - Senior frontend developers and other role...</span
+                          >
+                        </p>
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">Jun 1</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="linked-logo-div">
+                          <p class="linkedin-logo">Z</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            ZenithDirect
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">
+                          ZenithDirect
+                        </p>
+                        <p class="linkedin-text">
+                          Monthly Statement for MAY 2023<span
+                            class="linkedin-span"
+                          >
+                            - Thursday, June 1, 2023 MONTHLY STATEMENT
+                            FO...</span
+                          >
+                        </p>
+                        <button class="pdf-wrap">
+                          <img
+                            src="./gmail-logo/PDF-logo-removebg-preview.png"
+                            alt="PDF logo"
+                            class="pdf-logo"
+                          />
+                          <p class="pdf-text">ZENITH_20230...</p>
+                        </button>
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">Jun 1</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="div-linkedin">
+                          <p class="linkedin-logo">L</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            LinkedIn
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">LinkedIn</p>
+                        <p class="linkedin-text">
+                          JESIAH Recently Posted<span class="linkedin-span">
+                            - Are you ready???? #Web3marketing...</span
+                          >
+                        </p>
+                        <!-- <button class="pdf-wrap">
+                          <img
+                            src="./gmail-logo/PDF-logo-removebg-preview.png"
+                            alt="PDF logo"
+                            class="pdf-logo"
+                          />
+                          <p class="pdf-text">ZENITH_20230...</p>
+                        </button> -->
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">Jun 1</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="linked-logo-div">
+                          <p class="linkedin-logo">E</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            Ebusinessgroup
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">
+                          Ebusinessgroup
+                        </p>
+                        <p class="linkedin-text">
+                          Zenith Transaction Alert [DEBIT 1,100.00 NGN]<span
+                            class="linkedin-span"
+                          >
+                            - Zenith bank transcation notificat...</span
+                          >
+                        </p>
+                        <!-- <button class="pdf-wrap">
+                          <img
+                            src="./gmail-logo/PDF-logo-removebg-preview.png"
+                            alt="PDF logo"
+                            class="pdf-logo"
+                          />
+                          <p class="pdf-text">ZENITH_20230...</p>
+                        </button> -->
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">Jun 1</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="linked-logo-div">
+                          <p class="linkedin-logo">E</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            Ebusinessgroup
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">
+                          Ebusinessgroup
+                        </p>
+                        <p class="linkedin-text">
+                          Zenith Transaction Alert [DEBIT 900.00 NGN]<span
+                            class="linkedin-span"
+                          >
+                            - Zenith bank transcation notificat...</span
+                          >
+                        </p>
+                        <!-- <button class="pdf-wrap">
+                          <img
+                            src="./gmail-logo/PDF-logo-removebg-preview.png"
+                            alt="PDF logo"
+                            class="pdf-logo"
+                          />
+                          <p class="pdf-text">ZENITH_20230...</p>
+                        </button> -->
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">Jun 1</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="linked-logo-div">
+                          <p class="linkedin-logo">E</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            Ebusinessgroup
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">
+                          Ebusinessgroup
+                        </p>
+                        <p class="linkedin-text">
+                          Zenith Transaction Alert [DEBIT 1,500.00 NGN]<span
+                            class="linkedin-span"
+                          >
+                            - Zenith bank transcation notificat...</span
+                          >
+                        </p>
+                        <!-- <button class="pdf-wrap">
+                          <img
+                            src="./gmail-logo/PDF-logo-removebg-preview.png"
+                            alt="PDF logo"
+                            class="pdf-logo"
+                          />
+                          <p class="pdf-text">ZENITH_20230...</p>
+                        </button> -->
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">Jun 1</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="linked-logo-div">
+                          <p class="linkedin-logo">E</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            Ebusinessgroup
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">
+                          Ebusinessgroup
+                        </p>
+                        <p class="linkedin-text">
+                          Zenith MOBILE LOGIN ALERT ON 6/1/2023 AT 12:37:19
+                          PM<span class="linkedin-span">
+                            - Zenith mobile login Notific...</span
+                          >
+                        </p>
+                        <!-- <button class="pdf-wrap">
+                          <img
+                            src="./gmail-logo/PDF-logo-removebg-preview.png"
+                            alt="PDF logo"
+                            class="pdf-logo"
+                          />
+                          <p class="pdf-text">ZENITH_20230...</p>
+                        </button> -->
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">Jun 1</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="div-linkedin">
+                          <p class="linkedin-logo">L</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            LinkedIn
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">LinkedIn</p>
+                        <p class="linkedin-text">
+                          "frontend developer": 30+ opportunities<span
+                            class="linkedin-span"
+                          >
+                            - Experienced Frontend Developer (m/f/d)..</span
+                          >
+                        </p>
+                        <!-- <button class="pdf-wrap">
+                          <img
+                            src="./gmail-logo/PDF-logo-removebg-preview.png"
+                            alt="PDF logo"
+                            class="pdf-logo"
+                          />
+                          <p class="pdf-text">ZENITH_20230...</p>
+                        </button> -->
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">May 31</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="linked-logo-div">
+                          <p class="linkedin-logo">E</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            Ebusinessgroup
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">
+                          Ebusinessgroup
+                        </p>
+                        <p class="linkedin-text">
+                          Zenith Transaction Alert [DEBIT 2,100.00 NGN]<span
+                            class="linkedin-span"
+                          >
+                            - Zenith bank transcation notificat...</span
+                          >
+                        </p>
+                        <!-- <button class="pdf-wrap">
+                          <img
+                            src="./gmail-logo/PDF-logo-removebg-preview.png"
+                            alt="PDF logo"
+                            class="pdf-logo"
+                          />
+                          <p class="pdf-text">ZENITH_20230...</p>
+                        </button> -->
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">May 31</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="linked-logo-div">
+                          <p class="linkedin-logo">E</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            Ebusinessgroup
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">
+                          Ebusinessgroup
+                        </p>
+                        <p class="linkedin-text">
+                          Zenith Transaction Alert [DEBIT 2,000.00 NGN]<span
+                            class="linkedin-span"
+                          >
+                            - Zenith bank transcation notificat...</span
+                          >
+                        </p>
+                        <!-- <button class="pdf-wrap">
+                          <img
+                            src="./gmail-logo/PDF-logo-removebg-preview.png"
+                            alt="PDF logo"
+                            class="pdf-logo"
+                          />
+                          <p class="pdf-text">ZENITH_20230...</p>
+                        </button> -->
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">May 31</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="linked-logo-div">
+                          <p class="linkedin-logo">E</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            Ebusinessgroup
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">
+                          Ebusinessgroup
+                        </p>
+                        <p class="linkedin-text">
+                          Zenith Mobie LOGIN ALERT ON 5/31/2023 AT 6:45:24
+                          PM<span class="linkedin-span">
+                            - Zenith Mobile Login notificat...</span
+                          >
+                        </p>
+                        <!-- <button class="pdf-wrap">
+                          <img
+                            src="./gmail-logo/PDF-logo-removebg-preview.png"
+                            alt="PDF logo"
+                            class="pdf-logo"
+                          />
+                          <p class="pdf-text">ZENITH_20230...</p>
+                        </button> -->
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">May 31</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="linked-logo-div">
+                          <p class="linkedin-logo">E</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            Ebusinessgroup
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">
+                          Ebusinessgroup
+                        </p>
+                        <p class="linkedin-text">
+                          Zenith Mobie LOGIN ALERT ON 5/31/2023 AT 6:33:15
+                          PM<span class="linkedin-span">
+                            - Zenith Mobile Login notificat...</span
+                          >
+                        </p>
+                        <!-- <button class="pdf-wrap">
+                          <img
+                            src="./gmail-logo/PDF-logo-removebg-preview.png"
+                            alt="PDF logo"
+                            class="pdf-logo"
+                          />
+                          <p class="pdf-text">ZENITH_20230...</p>
+                        </button> -->
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">May 31</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="linked-logo-div">
+                          <p class="linkedin-logo">E</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            Ebusinessgroup
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">
+                          Ebusinessgroup
+                        </p>
+                        <p class="linkedin-text">
+                          Zenith Transaction Alert [DEBIT 1,100.00 NGN]<span
+                            class="linkedin-span"
+                          >
+                            - Zenith bank transcation notificat...</span
+                          >
+                        </p>
+                        <!-- <button class="pdf-wrap">
+                          <img
+                            src="./gmail-logo/PDF-logo-removebg-preview.png"
+                            alt="PDF logo"
+                            class="pdf-logo"
+                          />
+                          <p class="pdf-text">ZENITH_20230...</p>
+                        </button> -->
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">May 31</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div all-middle-div--opened">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="div-netlify">
+                          <p class="linkedin-logo">N</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            Netlify
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">Netlify</p>
+                        <p class="linkedin-text">
+                          Netlify's May Newsletter<span class="linkedin-span">
+                            - The 2023 Web Development Survey is here, Netlify
+                            Ch...</span
+                          >
+                        </p>
+                        <!-- <button class="pdf-wrap">
+                          <img
+                            src="./gmail-logo/PDF-logo-removebg-preview.png"
+                            alt="PDF logo"
+                            class="pdf-logo"
+                          />
+                          <p class="pdf-text">ZENITH_20230...</p>
+                        </button> -->
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">May 30</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div all-middle-div--opened">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="div-linkedin">
+                          <p class="linkedin-logo">L</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            LinkedIn
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">LinkedIn</p>
+                        <p class="linkedin-text">
+                          "frontend developer": 30+ opportunities<span
+                            class="linkedin-span"
+                          >
+                            - front-endont wikkelaar and other roles ar...</span
+                          >
+                        </p>
+                        <!-- <button class="pdf-wrap">
+                          <img
+                            src="./gmail-logo/PDF-logo-removebg-preview.png"
+                            alt="PDF logo"
+                            class="pdf-logo"
+                          />
+                          <p class="pdf-text">ZENITH_20230...</p>
+                        </button> -->
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">May 30</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div all-middle-div--opened">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="linked-logo-div">
+                          <p class="linkedin-logo">E</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            Ebusinessgroup
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">
+                          Ebusinessgroup
+                        </p>
+                        <p class="linkedin-text">
+                          Zenith Transaction Alert [DEBIT: 5,000.00.NGN]<span
+                            class="linkedin-span"
+                          >
+                            - Zenith Bank Transaction Notific...</span
+                          >
+                        </p>
+                        <!-- <button class="pdf-wrap">
+                          <img
+                            src="./gmail-logo/PDF-logo-removebg-preview.png"
+                            alt="PDF logo"
+                            class="pdf-logo"
+                          />
+                          <p class="pdf-text">ZENITH_20230...</p>
+                        </button> -->
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">May 27</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div all-middle-div--opened">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="div-linkedin">
+                          <p class="linkedin-logo">L</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            LinkedIn
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">LinkedIn</p>
+                        <p class="linkedin-text">
+                          "frontend developer": 30+ opportunities<span
+                            class="linkedin-span"
+                          >
+                            - Frontend Developer And other roles Avail...</span
+                          >
+                        </p>
+                        <!-- <button class="pdf-wrap">
+                          <img
+                            src="./gmail-logo/PDF-logo-removebg-preview.png"
+                            alt="PDF logo"
+                            class="pdf-logo"
+                          />
+                          <p class="pdf-text">ZENITH_20230...</p>
+                        </button> -->
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">May 25</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div all-middle-div--opened">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="linked-logo-div">
+                          <p class="linkedin-logo">E</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            Ebusinessgroup
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">
+                          Ebusinessgroup
+                        </p>
+                        <p class="linkedin-text">
+                          Zenith Mobile LOGIN ALERT ON 5/27/2023 AT 6:10:15
+                          PM<span class="linkedin-span">
+                            - Zenith Mobile Login Notifica...</span
+                          >
+                        </p>
+                        <!-- <button class="pdf-wrap">
+                          <img
+                            src="./gmail-logo/PDF-logo-removebg-preview.png"
+                            alt="PDF logo"
+                            class="pdf-logo"
+                          />
+                          <p class="pdf-text">ZENITH_20230...</p>
+                        </button> -->
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">May 25</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="all-middle-div">
+                    <div class="middle-content-wrap">
+                      <div class="linkedin-icon-wrap">
+                        <ion-icon
+                          name="square-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          class="linkedin-icons"
+                        ></ion-icon>
+                        <div class="div-snapchat">
+                          <p class="linkedin-logo">S</p>
+
+                          <p class="linkedin-text linkedin-text--1st">
+                            Snapchat
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p class="linkedin-text linkedin-text--2st">Snapchat</p>
+                        <p class="linkedin-text">
+                          View Your Snapchat Messages<span
+                            class="linkedin-span"
+                          >
+                            - You have Unred Messages Waiting on
+                            Snapchat...</span
+                          >
+                        </p>
+                        <!-- <button class="pdf-wrap">
+                          <img
+                            src="./gmail-logo/PDF-logo-removebg-preview.png"
+                            alt="PDF logo"
+                            class="pdf-logo"
+                          />
+                          <p class="pdf-text">ZENITH_20230...</p>
+                        </button> -->
+                      </div>
+
+                      <div class="linkedin-last-wrap">
+                        <p class="linkedin-text">May 23</p>
+                        <a href="#"><ion-icon name="star-outline" class="linkedin-star"></ion-icon></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <footer>
+                    <div class="footer-wrap">
+                      <div>
+                        <div class="percent-full" width="100%">
+                          <div class="percent-half"></div>
+                        </div>
+                        <p class="last-account-text last-account-text--icon">
+                          4.41GB of 15GB used
+                          <ion-icon
+                            name="open-outline"
+                            class="percent-icon"
+                          ></ion-icon>
+                        </p>
+                      </div>
+
+                      <div class="terms-div">
+                        <p class="last-account-text">Terms .</p>
+                        <p class="last-account-text">Privacy .</p>
+                        <p class="last-account-text">Programme Policies</p>
+                      </div>
+
+                      <div class="last-account-div">
+                        <p class="last-account-text--1">
+                          Last Account Activity: 1 hour ago
+                        </p>
+                        <p class="last-account-text">Details</p>
+                      </div>
+                    </div>
+                  </footer>
+
+                  <div>
+                    <div>
+                      <button class="compose-wrap-footer">
+                        <ion-icon
+                          name="pencil-outline"
+                          class="compose-icon"
+                        ></ion-icon>
+                        <p class="compose-text">Compose</p>
+                      </button>
+                    </div>
+
+                    <div class="container">
+                      <div class="footer-mail-icon-wrap">
+                        <div class="footer-mail-icon-div">
+                          <ion-icon
+                            name="mail-unread"
+                            class="footer-mail-icon"
+                          ></ion-icon>
+                        </div>
+
+                        <ion-icon
+                          name="videocam-outline"
+                          class="footer-mail-icon--2"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="all-panel-div">
+              <div class="container">
+                <div>
+                  <div class="panel-icon-wrap">
+                    <div class="panel-icon-wrap">
+                      <img
+                        src="./panels-icon-logos/Calender-icon--2.png"
+                        alt="Calender"
+                        class="all-panel-icon"
+                      />
+
+                      <img
+                        src="./panels-icon-logos/Keep-icon--2.png"
+                        alt="Keeps"
+                        class="all-panel-icon"
+                      />
+
+                      <img
+                        src="./panels-icon-logos/Unkown-icon--2.png"
+                        alt="Calender"
+                        class="all-panel-icon"
+                      />
+
+                      <img
+                        src="./panels-icon-logos/Contact-icon--2.png"
+                        alt="Calender"
+                        class="all-panel-icon"
+                      />
+
+                      <div class="line-width"></div>
+
+                      <ion-icon
+                        name="add-outline"
+                        class="all-panel-icon icon-2"
+                      ></ion-icon>
+
+                      <ion-icon
+                        name="chevron-forward-outline"
+                        class="all-panel-icon icon-3"
+                      ></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

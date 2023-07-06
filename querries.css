@@ -1,0 +1,616 @@
+@media (max-width: 1530px) {
+  .panel-icon-wrap {
+    display: none;
+  }
+
+  .all-panel-div {
+    display: none;
+  }
+
+  .main-middle {
+    width: 75% !important;
+    /* margin-left: 350px; */
+  }
+
+  .nav-form {
+    width: 240% !important;
+  }
+}
+
+@media (max-width: 1400px) {
+  .main-middle {
+    width: 70% !important;
+  }
+
+  .all-middle-sticky {
+    width: 70% !important;
+  }
+
+  .nav-form {
+    width: 200% !important;
+  }
+
+  .promotion-div {
+    width: 80% !important;
+  }
+
+  .primary-wrap {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1290px) {
+  .nav-form {
+    width: 170% !important;
+    text-align: left;
+  }
+
+  .promotion-text-2 {
+    display: none;
+  }
+
+  .promotion-div {
+    width: 70% !important;
+  }
+
+  .primary-wrap {
+    width: 70% !important;
+  }
+
+  .all-middle-sticky {
+    width: 75% !important;
+  }
+
+  .main-middle {
+    margin-left: 270px !important;
+    width: 75% !important;
+  }
+}
+
+@media (max-width: 1150px) {
+  .nav-form {
+    width: 130% !important;
+    padding: 4px 16px !important;
+  }
+
+  .logo-img {
+    width: 120px !important;
+    height: 100%;
+  }
+
+  .nav-icon {
+    width: 24px !important;
+    height: 24px !important;
+  }
+
+  .compose-wrap {
+    padding: 18px !important;
+    gap: 18px !important;
+  }
+
+  .compose-icon {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .compose-text {
+    font-size: 16px !important;
+  }
+
+  .inbox-wrap {
+    padding-left: 12px !important;
+  }
+
+  .main-middle {
+    margin-left: 240px !important;
+    width: 76% !important;
+  }
+
+  .all-middle-sticky {
+    width: 76% !important;
+  }
+
+  .all-primary-div {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .main-middle {
+    width: 70% !important;
+  }
+
+  .all-middle-sticky {
+    width: 70% !important;
+  }
+
+  .footer-wrap {
+    grid-template-columns: 200px 200px 200px !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .nav-form {
+    width: 110% !important;
+    padding: 4px 16px !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .nav-form {
+    width: 150% !important;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .nav-icon-search {
+    display: none !important;
+  }
+
+  .linkedin-text {
+    font-size: 14px !important;
+  }
+
+  .linkedin-span {
+    display: none;
+  }
+
+  .logo-img,
+  .nav-icon-end,
+  .nav-icon-app,
+  .email-head {
+    display: none !important;
+  }
+
+  .media-search-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .media-text {
+    font-size: 18px;
+    font-weight: 500;
+    display: block !important;
+  }
+
+  .media-search {
+    text-align: right;
+    display: block !important;
+    width: 24px;
+    height: 24px;
+    color: #fff;
+  }
+
+  .compose-wrap,
+  .inbox-text,
+  .labels-text {
+    display: none !important;
+  }
+
+  .inbox-wrap {
+    display: block !important;
+    justify-content: flex-end;
+    background-color: #222 !important;
+    /* opacity: 0; */
+    padding-left: 32px !important;
+  }
+
+  .inbox-wrap--4 {
+    padding-left: 18px !important;
+  }
+
+  .inbox-wrap--3 {
+    padding-left: 20px !important;
+    margin-top: 0 !important;
+  }
+
+  .main-middle {
+    width: 70% !important;
+    margin-left: 90px !important;
+  }
+
+  .inbox-icon--2 {
+    display: none;
+  }
+
+  .inbox-icon--3 {
+    display: block !important;
+    border-radius: 5px !important;
+    background-color: rgba(134, 142, 150, 0.328);
+    padding: 10px;
+    color: #868e96 !important;
+  }
+
+  .media-aside-icon {
+    display: block !important;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #1c7ed6;
+    margin-bottom: 32px;
+  }
+
+  .main-middle {
+    width: 85% !important;
+  }
+
+  .all-middle-sticky {
+    display: none !important;
+  }
+
+  .linkedin-text {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .nav-form {
+    width: 120% !important;
+  }
+
+  .linkedin-icons {
+    display: none;
+  }
+
+  .middle-content-wrap {
+    grid-template-columns: 200px 1fr 50px !important;
+  }
+
+  .linkedin-logo {
+    font-size: 18px;
+    font-weight: 500;
+    display: block !important;
+  }
+
+  .linked-logo-div {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: red;
+    width: 32px;
+    height: 32px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+  }
+
+  .div-snapchat {
+    background-color: #006aff !important;
+    padding: 10px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+  }
+
+  .div-linkedin {
+    background-color: rgb(30, 186, 30) !important;
+    padding: 10px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+  }
+
+  .div-netlify {
+    background-color: yellow !important;
+    padding: 10px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* .linkedin-text {
+        display: flex;
+    } */
+
+  .flex-div {
+    display: flex;
+    align-items: first baseline !important;
+  }
+
+  .footer-wrap {
+    display: none !important;
+  }
+}
+
+/* @media (max-width: 700px) {
+    
+} */
+
+@media (max-width: 660px) {
+  .aside {
+    display: none !important;
+  }
+
+  /* .nav-input-wrap {
+    gap: 6px !important;
+  } */
+
+  .nav-icon-first,
+  .media-text,
+  .nav-icon {
+    display: none !important;
+  }
+
+  .nav-media-menu {
+    width: 24px;
+    height: 24px;
+    display: block !important;
+  }
+
+  .nav-form {
+    display: none !important;
+  }
+
+  .nav-form--2 {
+    display: flex !important;
+    width: 100% !important;
+    padding: 6px 16px !important;
+  }
+
+  .all-nav-flex,
+  .nav-mini-flex {
+    display: block !important;
+  }
+
+  .nav-form-img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: block !important;
+  }
+
+  .nav-logo-wrap {
+    display: block !important;
+    gap: 4px !important;
+  }
+
+  .nav-menu-primary {
+    display: flex !important;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-left: 5px;
+  }
+
+  .media-search {
+    display: none !important;
+  }
+
+  .main-middle {
+    margin-left: 0 !important;
+    width: 100% !important;
+    margin-top: 16px;
+  }
+
+  .compose-wrap-footer {
+    display: flex !important;
+    align-items: center;
+    gap: 32px;
+    background-color: rgb(40, 40, 244);
+    padding: 24px;
+    border: none;
+    outline: 0;
+    border-radius: 24px;
+    position: fixed;
+    /* width: 100%; */
+    bottom: 100px;
+    right: 32px;
+  }
+
+  .compose-icon {
+    width: 24px !important;
+    height: 24px !important;
+    color: #adceea !important;
+  }
+
+  .compose-text {
+    color: #a2c6e6 !important;
+  }
+
+  .footer-mail-icon-wrap {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 69px;
+    padding-top: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background-color: #303a43;
+  }
+
+  .footer-mail-icon {
+    width: 24px;
+    height: 24px;
+    padding: 6px 24px;
+    border-radius: 24px;
+    color: #a2c6e6 !important;
+    background-color: rgb(40, 40, 244) !important;
+  }
+
+  .footer-mail-icon-div {
+    position: relative;
+  }
+
+  .footer-mail-icon-div::after {
+    content: "99+";
+    position: absolute;
+    right: 0;
+    top: -5px;
+    background-color: #f49494;
+    color: #333;
+    padding: 2px 5px;
+    border-radius: 24px;
+    font-weight: 600;
+  }
+
+  /* .footer-mail-icon::after {
+    content: "99+";
+    position: absolute;
+    right: 12px;
+    top: 2px;
+    background-color: #d66262;
+    color: #333;
+    padding: 2px 5px;
+    border-radius: 24px;
+    font-weight: 600;
+  } */
+
+  .footer-mail-icon--2 {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media (max-width: 470px) {
+  .main-middle {
+    border-radius: 0 !important;
+    background-color: #222 !important;
+  }
+
+  .linkedin-text--1st {
+    display: none !important;
+  }
+
+  .middle-content-wrap {
+    grid-template-columns: 50px 320px 40px !important;
+  }
+
+  .linkedin-logo {
+    font-size: 24px;
+    font-weight: 500;
+    display: block !important;
+  }
+
+  .linked-logo-div {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .linkedin-text {
+    font-size: 13px !important;
+  }
+
+  .linkedin-last-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .linkedin-last {
+    display: block !important;
+    font-size: 13px;
+    color: #adb5bd;
+  }
+
+  .linkedin-star {
+    width: 24px;
+    height: 24px;
+    color: #adb5bd;
+    display: block !important;
+  }
+
+  .div-snapchat {
+    background-color: #006aff !important;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div-linkedin {
+    background-color: rgb(30, 186, 30) !important;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div-netlify {
+    background-color: yellow !important;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .linkedin-text--2st {
+    display: block !important;
+  }
+
+  .all-middle-div {
+    border-bottom: 0 !important;
+    transition: all 0.3s ease;
+  }
+}
+
+@media (max-width: 430px) {
+  .middle-content-wrap {
+    grid-template-columns: 50px 240px 40px !important;
+    gap: 2px !important;
+  }
+
+  .compose-wrap-footer {
+    display: flex !important;
+    align-items: center;
+    gap: 32px;
+    background-color: rgb(40, 40, 244);
+    padding: 16px 12px;
+    border: none;
+    outline: 0;
+    border-radius: 16px;
+    position: fixed;
+    /* width: 100%; */
+    bottom: 100px;
+    right: 32px;
+  }
+
+  .compose-icon {
+    width: 20px !important;
+    height: 20px !important;
+    color: #adceea !important;
+  }
+
+  .compose-text {
+    color: #a2c6e6 !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .nav-input {
+    width: 100%;
+  }
+}
